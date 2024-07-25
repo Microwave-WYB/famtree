@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "famtree"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pydantic = "^2.8.2"
+graphviz = "^0.20.3"
+streamlit = "^1.36.0"
+barfi = "^0.7.0"
+pillow = "^10.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.373"
+black = "^24.4.2"
+pytest = "^8.3.1"
+ruff = "^0.5.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
